@@ -8,8 +8,8 @@
 
     @foreach($posts as $post)
         <article>
-            <h2 style="color:blue">{!!$post->title!!}</h2>
-            <p>
+            <h2>{!!$post->title!!}</h2>
+            <p style="color:blue">
                 {!!$post->excerpt!!}
             </p>
             <p>
