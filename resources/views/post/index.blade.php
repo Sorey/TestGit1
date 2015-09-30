@@ -7,7 +7,7 @@
     </div>
 
     @foreach($posts as $post)
-        <article>
+        <article style="background:lightpink">
             <h2 style="background:red">{!!$post->title!!}</h2>
             <p>
                 {!!$post->excerpt!!}
